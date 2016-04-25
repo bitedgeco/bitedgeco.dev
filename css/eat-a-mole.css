@@ -96,9 +96,7 @@ ol {
 }
 
 body {
-	background: url(/img/background.png) repeat center center fixed; 
-  	background-size: cover;
-
+	background: url(/img/background.png); 
 }
 
 	}
