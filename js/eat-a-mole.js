@@ -28,8 +28,7 @@ $(document).ready(function() {
 			}
 		}, 900);
 	});
-
-	// Countdown from 20 check score for high score
+	// Countdown from 20, check score for high score
 	function countdownFun(){
 		intId2 = setInterval(function(){
 			$('#countdown').html(countdownVar);
@@ -61,7 +60,6 @@ $(document).ready(function() {
 			}
 		},1000);
 	}
-
 	// pic a random plate
 	function picplate(){
 		var number = Math.random();
@@ -84,7 +82,6 @@ $(document).ready(function() {
 			console.log(number)
 		};
 	}
-
 	// serve a plate
 	function animatePlate(plateid) {
 		$(plateid).html('<img src="/img/mole-round-100px.png">');
@@ -94,7 +91,6 @@ $(document).ready(function() {
 			$(plateid).removeClass('food');
 		},1100);
 	}
-
 	//listen for user clicks on plates, if user clicks on food add a point, play sound, put food in spoon
 	$('.plate').click(function() {
 		if ($(this).hasClass('food')){
@@ -113,7 +109,6 @@ $(document).ready(function() {
 			missAudio.play();
 		}
 	});
-
 	// chang curser from with food to empty when mouse moves off of plate. 
 	$('.plate').hover(function(){},
 	function(){

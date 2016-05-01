@@ -2,47 +2,43 @@
 <html>
 <head>
 <title>Eat-a-mole</title>
-<!-- bootstrap CSS-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-<!-- external CSS -->
-<link rel="stylesheet" href="css/eat-a-mole.css">
+	<!-- bootstrap CSS CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- external CSS -->
+	<link rel="stylesheet" href="css/eat-a-mole.css">
 </head>
 <body>
-<div class="container">
-	<h1>Eat-a-mole</h1>
-	<div class="col-md-6">
-		<img id="molePic" src="img/mole-square.jpg">
-		<div id="game">
-			<div class="plate" id="plate1"><img src="img/plate-empty-100.png".png></div>
-			<div class="plate" id="plate2"><img src="img/plate-empty-100.png".png></div>
-			<div class="plate" id="plate3"><img src="img/plate-empty-100.png".png></div>
-			<div class="plate" id="plate4"><img src="img/plate-empty-100.png".png></div>
-			<div class="plate" id="plate5"><img src="img/plate-empty-100.png".png></div>
+	<div class="container">
+		<h1>Eat-a-mole</h1>
+		<div class="col-md-6">
+			<img id="molePic" src="img/mole-square.jpg">
+			<div id="game">
+				<div class="plate" id="plate1"><img src="img/plate-empty-100.png".png></div>
+				<div class="plate" id="plate2"><img src="img/plate-empty-100.png".png></div>
+				<div class="plate" id="plate3"><img src="img/plate-empty-100.png".png></div>
+				<div class="plate" id="plate4"><img src="img/plate-empty-100.png".png></div>
+				<div class="plate" id="plate5"><img src="img/plate-empty-100.png".png></div>
+			</div>
 		</div>
+		<div class="col-md-6">
+			<ol>
+				<li>Click start</li>
+				<li>Eat as much mole as you can in 20 seconds</li>
+				<li>Beat your high score!</li>
+			</ol>
+			<button id="start" class="btn btn-default btn-lg" autofocus>Start!</button>
+			<div id=newHighScore></div>
+			<div id="score">Score:</div> 
+			<div id="highScore">High Score:</div> 
+			<div id="countdown"></div>  
+		</div>		
 	</div>
-	<div class="col-md-6">
-		<ol>
-		<li>Click start</li>
-		<li>Eat as much mole as you can in 20 seconds</li>
-		<li>Beat your high score!</li>
-		</ol>
-		<button id="start" class="btn btn-default btn-lg" autofocus>Start!</button>
-		<div id=newHighScore></div>
-		<div id="score">Score:</div> 
-		<div id="highScore">High Score:</div> 
-		<div id="countdown"></div>  
-	</div>		
-</div>
-
-<div class ="visible-xs-block visible-md-block" id="bottomSpacer"><div>
-<!-- Jquery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-
-<!-- bootstrap JS -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-<!-- external JS -->
-<script src="js/eat-a-mole.js"></script>
+	<div class ="visible-xs-block" id="bottomSpacer"><div>
+	<!-- Jquery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<!-- bootstrap JS CDN-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- external JS -->
+	<script src="js/eat-a-mole.js"></script>
 </body>
 </html>
