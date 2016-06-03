@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; 
 $(document).ready(function() {
 	 // set initial game state
 	$('#repeatSequence').hide();
@@ -99,7 +99,7 @@ $(document).ready(function() {
 			$('#repeatSequence').show();
 			$('#watchSequence').hide();
 			$('#pressStart').hide();
-		},500);
+		},700);
 	}
 
 	function watchSequence() {
@@ -107,12 +107,12 @@ $(document).ready(function() {
 			$('#watchSequence').show();
 			$('#repeatSequence').hide();
 			$('#pressStart').hide();
-		},500);
+		},700);
 	}
 
 	function countLevel(){
 		setTimeout(function(){
 			$('h1').html('Level '+ sequence.length);
-		},300);
+		},500);
 	}
 });

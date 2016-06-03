@@ -3,7 +3,6 @@
 }
 
 body {
-	font-family: "Avenir Next";
 	background: url(/img/background.png) no-repeat center center fixed; 
   	background-size: cover;
   	color: black;
@@ -95,9 +94,9 @@ ol {
     top: 470px;
 }
 
-    @media only screen and (min-width : 768px) {
+/*    @media only screen and (min-width : 768px) {
 
 body {
   	padding-bottom: 0;
 }
-}
+}*/
