@@ -3,8 +3,12 @@ body {
 	background-color: #f9f9f9;
 }
 
-#logo a {
+#icon a {
 	color: #333;
+}
+
+#icon a:hover {
+	color: #337ab7;
 }
 
 #map-canvas {

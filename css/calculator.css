@@ -11,6 +11,10 @@ body {
 	color: #333;
 }
 
+#icon a:hover {
+	color: #337ab7;
+}
+
 form {
 	margin-left: 50px; 
 	margin-right: 50px; 

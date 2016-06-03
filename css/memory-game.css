@@ -10,6 +10,10 @@ body {
     color: #333;
 }
 
+#icon a:hover {
+    color: #337ab7;
+}
+
 #backgroundBox {
 	width: 340px;
     height: 340px;
