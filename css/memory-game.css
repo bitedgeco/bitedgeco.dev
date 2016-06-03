@@ -6,6 +6,10 @@ body {
     text-align: left;
 }
 
+#icon a {
+    color: #333;
+}
+
 #backgroundBox {
 	width: 340px;
     height: 340px;

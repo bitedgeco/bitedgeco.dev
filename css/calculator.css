@@ -7,6 +7,10 @@ body {
     text-align: left;
 }
 
+#icon a {
+	color: #333;
+}
+
 form {
 	margin-left: 50px; 
 	margin-right: 50px; 

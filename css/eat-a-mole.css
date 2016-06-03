@@ -19,7 +19,7 @@ h1 {
 	height: 290px;
 }
 
-#molePic img {
+#molePic img { 
 	width: 450px;
 	height: 285px;
 }
@@ -94,9 +94,14 @@ ol {
     top: 470px;
 }
 
-/*    @media only screen and (min-width : 768px) {
+#icon a {
+	color: #333;
+}
+
+
+    @media only screen and (min-width : 768px) {
 
 body {
   	padding-bottom: 0;
 }
-}*/
+}
