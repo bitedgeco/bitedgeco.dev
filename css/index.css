@@ -56,17 +56,6 @@ p {
 	height: 250px;
  }
 
-.bitedge-img{ 
-	padding-top: 60px;
-	width: 250px;
-  	height: auto;
- }
-
- #logo {
- 	width: 250px;
-	height: 250px;
- }
-
  hr { 
   border: 0; 
   height: 1px; 
@@ -80,7 +69,6 @@ p {
     color: #4b9ef2;
     font-size: 27px;
     padding: 10px;
-    text-align: center;
 }
 
 .bigicon {

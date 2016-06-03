@@ -2,6 +2,10 @@ body {
 	text-align: center;
 }
 
+#icon {
+    text-align: left;
+}
+
 #backgroundBox {
 	width: 340px;
     height: 340px;

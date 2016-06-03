@@ -1,4 +1,4 @@
-"use strict"; 
+"use strict";
 $(document).ready(function() {
 	 // set initial game state
 	$('#repeatSequence').hide();
