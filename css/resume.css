@@ -1,0 +1,52 @@
+body {
+	background-color: #fafafa;
+	font-family: Garamond;
+	font-size: 16px;
+}
+
+ul {
+	text-align: center;
+	padding: 10px;
+	list-style: none;
+}
+
+li {
+    display: inline;
+    padding-left: 20px;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+
+h2 {
+	font-size: 24px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+h3 {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+hr {
+	margin-top: -20px;
+	border-top: 1px solid #CCC;
+}
+
+.indent {
+	padding-left: 40px;
+}
+
+.less_margin {
+	margin-bottom: 0px;
+}
+
+.gttt {
+	text-align: center;
+	padding: 40px;
+	display: block;
+}

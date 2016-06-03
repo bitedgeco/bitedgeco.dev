@@ -1,24 +1,120 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Bitedge development</title> 
-	<!-- bootstrap CSS CDN -->
+	<title>James Canning Portfolio</title>
+	<!-- Bootstrap CSS cdn-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<!-- external CSS -->
-	<link rel="stylesheet" href="css/index.css">
+	<!-- Font Awsome cdn-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<!-- External CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-	<div class="container">
-		<h1>Some web apps</h1>
-
-		<a href="http://bitedgeco.github.io/eat-a-mole.html">Eat-a-mole</a> (based on whack-a-mole).
-
-		<div id="fotter">
+	<div class="container">  
+		<div class="top_bar">
+			<ul>
+				<li><i class="fa fa-phone"></i>+201 3642 543</li>
+				<li><i class="fa fa-envelope-o"></i><a href="mailto:james.canning@gmail.com" target="top"> james.canning@gmail.com</a></li>
+				<li><i class="fa fa-skype"></i> james.canning</li>
+				<li><a href="https://github.com/bitedgeco" target="_blank"><i class="fa fa-github"></i> bitedgeco</a></li>
+				<li><a href="https://ph.linkedin.com/in/jamescanningbitcoin" target="_blank"><i class="fa fa-linkedin"> Linkedin</i></a></li>
+			</ul>
+		</div>
+		<div class="portrait"> 
+			<img src="/img/james_canning.jpg">
+		</div>
+		<h1 class="name">James Canning</h1>
+		<h1 class="job">Web Developer</h1>
+		<h2>Some of my apps</h2>
+		<div class="col-md-4">
+			<a href="calculator.html"><h3>Calculator</h3>
+			<img class="bootstrap-img" src="img/calculator-screenshot.png"></a>
+			<p><a href="https://github.com/bitedgeco" target="_blank">Java Script</a></p>
 			<hr>
-			<p>Free and <a target="_blank" href="https://github.com/bitedgeco/bitedgeco.github.io">open source</a> from <a target="_blank" href="http://www.bitedge.co/">Bitedge.</a></p>
+		</div>
+		<div class="col-md-4">
+			<a href="/eat-a-mole.html" ><h3>Eat-a-mole</h3>
+			<img class="bootstrap-img" src="img/eat-a-mole-screenshot.png"></a>
+			<p><a href="https://github.com/bitedgeco" target="_blank">Jquery</a></p>
+			<hr>
+		</div>
+		<div class="col-md-4">
+			<a href="/resume.html" ><h3>Resume</h3> 
+			<img class="bootstrap-img" src="img/resume-screenshot.png"></a>
+			<p><a href="https://github.com/bitedgeco" target="_blank">HTML & CSS</a></p>
+		<hr>
+		</div>
+		<div class="col-md-4">
+			<a href="/memory-game.html"><h3>Memory game</h3> 
+			<img class="bootstrap-img" src="img/memory-game-screenshot.png"></a>
+			<p><a href="https://github.com/bitedgeco" target="_blank">Game</a></p>
+			<hr>
+		</div>
+		<div class="col-md-4">
+			<a href="/weather-map.html"><h3>Weather Map</h3> 
+			<img class="bootstrap-img" src="img/weather-map-screenshot.png"></a>
+			<p><a href="https://github.com/bitedgeco" target="_blank">APIs</a></p>
+			<hr>
+		</div>
+		<div class="col-md-4">
+			<a href="http://www.bitedge.co" target="_blank"><h3>Wordpress</h3> 
+			<div id="logo">
+			<img class="bitedge-img bootstrap-img" src="img/bitedge-logo.png"></a>
+			</div>
+			<p><a href="http://www.bitedge.co" target="_blank"" target="_blank">project managment</a></p>
+		<hr>
+		</div>
+		<hr>
+		<div class="container">
+		    <div class="row">
+		        <div class="col-md-12">
+		            <div class="well well-sm">
+		                <form class="form-horizontal" method="post">
+		                    <fieldset>
+		                        <legend class="contact-header">Contact James</legend>
+		                        <div class="form-group">
+		                            <span class="col-md-1 col-md-offset-2 text-right"><i class="fa fa-user bigicon"></i></span>
+		                            <div class="col-md-8">
+		                                <input id="name" name="name" type="text" placeholder="Name" class="form-control">
+		                            </div>
+		                        </div>
+		                        <div class="form-group">
+		                            <span class="col-md-1 col-md-offset-2 text-right"><i class="fa fa-envelope-o bigicon"></i></span>
+		                            <div class="col-md-8">
+		                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+		                            </div>
+		                        </div>
+
+		                        <div class="form-group">
+		                            <span class="col-md-1 col-md-offset-2 text-right"><i class="fa fa-phone-square bigicon"></i></span>
+		                            <div class="col-md-8">
+		                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+		                            </div>
+		                        </div>
+
+		                        <div class="form-group">
+		                            <span class="col-md-1 col-md-offset-2 text-right"><i class="fa fa-pencil-square-o bigicon"></i></span>
+		                            <div class="col-md-8">
+		                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage here." rows="7"></textarea>
+		                            </div>
+		                        </div>
+
+		                        <div class="form-group">
+		                            <div class="col-md-8 col-md-offset-3">
+		                                <button class="btn btn-primary btn-lg">Submit</button>
+		                            </div>
+		                        </div>
+		                    </fieldset>
+		                </form>
+		            </div>
+		        </div>
+		    </div>
 		</div>
 	</div>
-	<!-- bootstrap JS CDN -->
+	<!-- JQuery cdn -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<!-- Bootstrap JS cdn -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
